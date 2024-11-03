@@ -26,6 +26,7 @@ function addMaxWidth() {
     img.style.display = 'block';
     img.style.width = 'auto'; // 幅をオリジナルサイズに保つ
     img.style.height = 'auto'; // 高さもオリジナルサイズに保つ
+    img.style.background = 'none'; // ゲムマブログに設定されている画像背景色を消し去る
 
     // もとのコードに width と height の属性が設定されていた場合に削除する
     if (img.hasAttribute('width')) {
